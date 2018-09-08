@@ -1,0 +1,19 @@
+{
+  "name": "Spok API v1.2.0",
+  "version": "1.2.0",
+  "description": "Spok API v1.2.0 full documentation",
+  "title": "Spok API v1.2.0",
+  "url" : "https://api.spok.me",
+  "header": {
+    "title": "Introduction",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "Lexicon",
+    "filename": "footer.md"
+  },
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

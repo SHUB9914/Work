@@ -1,0 +1,71 @@
+[0m[[0minfo[0m] [0mscalastyle using config /home/shubham/Documents/work/spok-api/scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala: File length exceeds 200 lines[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:620: File line length exceeds 160 characters[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:84:14: Cyclomatic complexity of 13 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:110:6: Cyclomatic complexity of 6 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:161:14: Cyclomatic complexity of 8 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:187:14: Cyclomatic complexity of 6 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:277:6: Cyclomatic complexity of 8 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:375:6: Cyclomatic complexity of 8 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:439:6: Cyclomatic complexity of 8 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:479:6: Cyclomatic complexity of 8 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:595:6: Cyclomatic complexity of 8 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:662:6: Cyclomatic complexity of 8 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:706:6: Cyclomatic complexity of 6 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:277:6: Method is longer than 30 lines[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala:43:6: Number of methods in class exceeds 15[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/handler/SpokRestServiceHandler.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokManagerCommands.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokManagerCommands.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActor.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActor.scala: File length exceeds 200 lines[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokView.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokView.scala:27:15: Cyclomatic complexity of 24 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokView.scala:27:15: Method is longer than 30 lines[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokView.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokPerformAfterCommands.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokPerformAfterCommands.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActorEvents.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActorEvents.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokViewCommands.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokViewCommands.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokViewValidationCommands.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokViewValidationCommands.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActorReplies.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActorReplies.scala: Number of types declared in the file exceeds 20[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActorReplies.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokManager.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokManager.scala:32:15: Cyclomatic complexity of 12 exceeds max of 5[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokManager.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActorCommands.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokActorCommands.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokLogger.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokLogger.scala: File length exceeds 200 lines[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokLogger.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokChildActor.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokChildActor.scala:21:6: Cyclomatic complexity of 7 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokChildActor.scala:21:6: Method is longer than 30 lines[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/service/SpokChildActor.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/util/SpokValidationUtil.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/util/SpokValidationUtil.scala: File length exceeds 200 lines[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/util/SpokValidationUtil.scala:140:14: Cyclomatic complexity of 9 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/util/SpokValidationUtil.scala:167:14: Cyclomatic complexity of 7 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/util/SpokValidationUtil.scala:241:14: Cyclomatic complexity of 7 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/util/SpokValidationUtil.scala:12:6: Number of methods in class exceeds 15[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/util/SpokValidationUtil.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/routes/SpokHttpServer.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/routes/SpokHttpServer.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/routes/SpokRestService.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/routes/SpokRestService.scala: File length exceeds 200 lines[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/routes/SpokRestService.scala:216:6: Cyclomatic complexity of 6 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/routes/SpokRestService.scala:216:6: Method is longer than 30 lines[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/spok/src/main/scala/com/spok/services/routes/SpokRestService.scala[0m
+[0m[[0minfo[0m] [0mProcessed 16 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 31 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 5 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /home/shubham/Documents/work/spok-api/spok/target[0m

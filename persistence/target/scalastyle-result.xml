@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/DSEGraphPersistenceFactoryApi.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error column="7" line="180" source="org.scalastyle.file.RegexChecker" severity="warning" message="Don't use .head"/>
+  <error column="4" line="704" source="org.scalastyle.file.RegexChecker" severity="warning" message="Any field name should not contain _"/>
+  <error line="602" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="118" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 38 exceeds max of 5"/>
+  <error column="14" line="986" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 6 exceeds max of 5"/>
+  <error column="6" line="118" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+  <error column="6" line="800" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+  <error column="6" line="1196" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+  <error column="6" line="28" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 15"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/spokgraph/DSESpokApi.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error column="9" line="535" source="org.scalastyle.file.RegexChecker" severity="warning" message="Don't use .head"/>
+  <error line="726" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="153" source="org.scalastyle.scalariform.ParameterNumberChecker" severity="warning" message="The number of parameters should not exceed 8"/>
+  <error column="14" line="266" source="org.scalastyle.scalariform.ParameterNumberChecker" severity="warning" message="The number of parameters should not exceed 8"/>
+  <error column="14" line="68" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 6 exceeds max of 5"/>
+  <error column="6" line="367" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 6 exceeds max of 5"/>
+  <error column="6" line="17" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 15"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/cassandra/CassandraProvider.scala">
+  <error line="151" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="24" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/spoklog/SpokLogging.scala">
+  <error column="6" line="29" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="32" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="101" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/messaging/MessagingApi.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error line="56" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="160" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="162" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="224" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="34" line="129" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+  <error column="6" line="114" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 7 exceeds max of 5"/>
+  <error column="6" line="114" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/search/SearchApi.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error column="6" line="209" source="org.scalastyle.scalariform.ParameterNumberChecker" severity="warning" message="The number of parameters should not exceed 8"/>
+  <error column="6" line="209" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 7 exceeds max of 5"/>
+  <error column="6" line="137" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+  <error column="6" line="209" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/search/SearchQuery.scala">
+  <error column="6" line="71" source="org.scalastyle.scalariform.ParameterNumberChecker" severity="warning" message="The number of parameters should not exceed 8"/>
+  <error column="89" line="80" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="89" line="81" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="91" line="85" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="91" line="86" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="71" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 8 exceeds max of 5"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/script/GenerateData.scala">
+  <error column="41" line="166" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="33" line="174" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/spokgraph/SpokViewApi.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error line="271" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="94" line="334" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="14" line="297" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 6 exceeds max of 5"/>
+  <error column="14" line="354" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+  <error column="6" line="20" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 15"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/spokgraph/DSESpokQuery.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error line="80" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="9" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 15"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/dsequery/DSEGraphPersistenceQuery.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error line="168" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 15"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/messaging/MessagingQuery.scala">
+  <error line="56" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="59" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="8" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 15"/>
+  <error column="6" line="67" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/persistence/src/main/scala/com/spok/persistence/factory/dsequery/DSEUserQuery.scala">
+  <error source="org.scalastyle.file.FileLengthChecker" severity="warning" message="File length exceeds 200 lines"/>
+  <error line="22" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="26" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="96" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="102" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="108" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="113" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="114" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="6" line="10" source="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker" severity="warning" message="Number of methods in class exceeds 15"/>
+ </file>
+</checkstyle>

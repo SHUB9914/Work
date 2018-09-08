@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/shubham/Documents/work/spok-api/notification/src/main/scala/com/spok/notification/service/NotificationManager.scala">
+  <error column="15" line="47" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 7 exceeds max of 5"/>
+  <error column="15" line="47" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 30 lines"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/notification/src/main/scala/com/spok/notification/service/NotificationView.scala">
+  <error column="10" line="23" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+ <file name="/home/shubham/Documents/work/spok-api/notification/src/main/scala/com/spok/notification/service/NotificationActor.scala">
+  <error column="10" line="29" source="org.scalastyle.scalariform.VarFieldChecker" severity="warning" message="Avoid mutable fields"/>
+ </file>
+</checkstyle>

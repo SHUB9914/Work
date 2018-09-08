@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0mscalastyle using config /home/shubham/Documents/work/spok-api/scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/handler/SearchRestServiceHandler.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/handler/SearchRestServiceHandler.scala:131:6: The number of parameters should not exceed 8[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/handler/SearchRestServiceHandler.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/service/SearchView.scala[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/service/SearchView.scala: Number of types declared in the file exceeds 20[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/service/SearchView.scala:42:6: Cyclomatic complexity of 22 exceeds max of 5[0m
+[0m[[33mwarn[0m] [0m/home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/service/SearchView.scala:42:6: Method is longer than 30 lines[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/service/SearchView.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/routes/SearchRestService.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/routes/SearchRestService.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/routes/SearchHttpServer.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/shubham/Documents/work/spok-api/search/src/main/scala/com/spok/search/routes/SearchHttpServer.scala[0m
+[0m[[0minfo[0m] [0mProcessed 4 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 4 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 1 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /home/shubham/Documents/work/spok-api/search/target[0m

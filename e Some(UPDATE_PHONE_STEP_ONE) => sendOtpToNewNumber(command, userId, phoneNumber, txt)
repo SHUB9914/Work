@@ -1,0 +1,52 @@
+[1mdiff --git a/accounts/src/main/scala/com/spok/accountsservice/handler/AccountRestServiceHandler.scala b/accounts/src/main/scala/com/spok/accountsservice/handler/AccountRestServiceHandler.scala[m
+[1mindex 8b4b4ec..4ff9a0e 100644[m
+[1m--- a/accounts/src/main/scala/com/spok/accountsservice/handler/AccountRestServiceHandler.scala[m
+[1m+++ b/accounts/src/main/scala/com/spok/accountsservice/handler/AccountRestServiceHandler.scala[m
+[36m@@ -170,7 +170,11 @@[m [mtrait AccountRestServiceHandler extends JsonHelper with ValidationUtil with Rand[m
+ [m
+     actionOpt match {[m
+       case Some(UPDATE_PHONE_STEP_ONE) => sendOtpToNewNumber(command, userId, phoneNumber, txt)[m
+[31m-      case Some(UPDATE_PHONE_STEP_TWO) => accountOtpHandlerForUpdatedNumber(command, query, txt, true, phoneNumber, userId)[m
+[32m+[m[32m      case Some(UPDATE_PHONE_STEP_TWO) =>[m
+[32m+[m[32m        println("--------------------------phone  number" + phoneNumber)[m
+[32m+[m[32m        val updatedPhoneNumber = if (phoneNumber.substring(0, 1) == "+") phoneNumber else "+" + phoneNumber[m
+[32m+[m[32m        println("----------------------updated phone number" + updatedPhoneNumber)[m
+[32m+[m[32m        accountOtpHandlerForUpdatedNumber(command, query, txt, true, phoneNumber, userId)[m
+       case Some(someAction) => Future(TextMessage(write(sendFormattedError(ACT_101, MISSING_ACTION))))[m
+       case None => Future(TextMessage(write(sendFormattedError(ACT_101, MISSING_ACTION))))[m
+     }[m
+[36m@@ -417,8 +421,9 @@[m [mtrait AccountRestServiceHandler extends JsonHelper with ValidationUtil with Rand[m
+ [m
+     try {[m
+       val number = (parse(numberJson) \ USERNUMBER).extract[String][m
+[32m+[m[32m      val updatedNumber = if (number.substring(0, 1) == "+") number else "+" + number[m
+       val code = (parse(numberJson) \ OTPCODE).extract[String][m
+[31m-      (Some(number), Some(code))[m
+[32m+[m[32m      (Some(updatedNumber), Some(code))[m
+     } catch {[m
+       case ex: Exception => (None, None)[m
+     }[m
+[1mdiff --git a/accounts/src/main/scala/com/spok/accountsservice/routes/AccountRestService.scala b/accounts/src/main/scala/com/spok/accountsservice/routes/AccountRestService.scala[m
+[1mindex 69dc7bc..c3358e2 100644[m
+[1m--- a/accounts/src/main/scala/com/spok/accountsservice/routes/AccountRestService.scala[m
+[1m+++ b/accounts/src/main/scala/com/spok/accountsservice/routes/AccountRestService.scala[m
+[36m@@ -203,7 +203,6 @@[m [mtrait AccountRestService extends AccountRestServiceHandler {[m
+               val extractedData: Future[Map[String, Any]] = formData.parts.mapAsync[(String, Any)](Four) {[m
+                 case picture: BodyPart if picture.name == "picture" =>[m
+                   val extension = picture.entity.getContentType().toString.split("/")[m
+[31m-                  println(">>>>>>>>>>>>>>>>>>>>> extension" + extension)[m
+                   val tempFile: File = File.createTempFile("picture", "." + extension.apply(1))[m
+                   picture.entity.dataBytes.runWith(FileIO.toPath(tempFile.toPath)).map { ioResult =>[m
+                     "picture" -> tempFile[m
+[1mdiff --git a/accounts/src/main/scala/com/spok/accountsservice/service/AccountView.scala b/accounts/src/main/scala/com/spok/accountsservice/service/AccountView.scala[m
+[1mindex e18600a..5715c11 100644[m
+[1m--- a/accounts/src/main/scala/com/spok/accountsservice/service/AccountView.scala[m
+[1m+++ b/accounts/src/main/scala/com/spok/accountsservice/service/AccountView.scala[m
+[36m@@ -34,6 +34,7 @@[m [mclass AccountView(replicaId: String, override val eventLog: ActorRef)[m
+   override def onCommand: Receive = {[m
+ [m
+     case GetOTPToken(phoneNumber) =>[m
+[32m+[m[32m      println(">>>>>>>>>>>>>phoneNumber is use to get otp" + phoneNumber)[m
+       phoneOtpMap.get(phoneNumber) match {[m
+         case Some(otpToken) =>[m
+           sender ! (if (otpToken.isExpired) {[m
