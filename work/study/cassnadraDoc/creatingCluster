@@ -1,0 +1,4 @@
+rpc_address: 0.0.0.0
+broadcast_rpc_address: localhost
+seeds - give ip address of outher nodes
+listion -  give your own node address
